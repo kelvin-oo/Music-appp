@@ -11,7 +11,7 @@ progressArea = wrapper.querySelector('.progress-area')
 musicList = wrapper.querySelector('.music-list')
 showMoreBtn = wrapper.querySelector('#more-music')
 hideMusicBtn = musicList.querySelector('#close')
-
+                
 
 
 let musicIndex = Math.floor((Math.random() * allMusic.length) + 1)
